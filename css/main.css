@@ -61,8 +61,7 @@ input[type="date"] {
 /* input label */
 input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
+  filter: invert(0.45);
 }
 
 label {
@@ -255,7 +254,7 @@ input[type="range"]:focus::-ms-fill-upper {
 
   header {
     max-width: 60rem;
-    padding: 0 4rem;
+    padding: 1.25rem 4rem 0 4rem;
     flex-direction: column;
     justify-content: flex-start;
   }
